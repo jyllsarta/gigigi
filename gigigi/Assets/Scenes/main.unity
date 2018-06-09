@@ -158,7 +158,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &37671402
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -257,7 +257,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &75633628
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -356,7 +356,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &88146998
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -455,7 +455,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &89819895
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -554,7 +554,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &101270217
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -653,7 +653,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &128594226
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -752,7 +752,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &163026634
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -851,7 +851,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &200309527
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -950,7 +950,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &211838912
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1049,7 +1049,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &217044565
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1148,7 +1148,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &246229691
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1247,7 +1247,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &260340215
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1346,7 +1346,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &261479501
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1445,7 +1445,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &309638645
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1544,7 +1544,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &319196589
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1643,7 +1643,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &368158614
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1727,6 +1727,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d97157f7c8dc8c34caf59e854d1fd4ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  currentGround: {fileID: 0}
 --- !u!65 &408484227
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1753,8 +1754,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 408484225}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.5, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: -0.5, z: 0.3}
+  m_LocalScale: {x: 0.3, y: 2, z: 0.3}
   m_Children: []
   m_Father: {fileID: 1178485523}
   m_RootOrder: 0
@@ -1819,7 +1820,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &418664393
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1918,7 +1919,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &443208867
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2017,7 +2018,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &450506525
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2116,7 +2117,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &457384586
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2215,7 +2216,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &528132017
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2379,7 +2380,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &572751230
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2478,7 +2479,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &580264447
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2577,7 +2578,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &694508679
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2676,7 +2677,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &754691129
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2775,7 +2776,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &763772874
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2874,7 +2875,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &788397386
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2973,7 +2974,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &794173665
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3072,7 +3073,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &822339538
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3171,7 +3172,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &844132393
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3270,7 +3271,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &861318203
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3369,7 +3370,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &880953316
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3468,7 +3469,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &941448986
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3567,7 +3568,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &959733640
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3711,7 +3712,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &964067683
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3810,7 +3811,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &991532039
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3909,7 +3910,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &996075471
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4008,7 +4009,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &1001106334
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4107,7 +4108,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &1021337713
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4206,7 +4207,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &1028249833
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4305,7 +4306,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &1059734667
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4404,7 +4405,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &1135409918
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4503,7 +4504,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &1146708895
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4602,7 +4603,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &1171810621
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4702,7 +4703,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fafc0f8238300c84d89bbb2a6d402c9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 6
+  speed: 3
   deathEffectPrefab: {fileID: 198654034178210734, guid: ba23ac7d376e6d142848bd2037f8a183,
     type: 2}
   playerFoot: {fileID: 408484226}
@@ -4747,7 +4748,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1178485517}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -4818,7 +4819,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &1179858864
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4917,7 +4918,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &1198636354
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5016,7 +5017,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &1229063794
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5115,7 +5116,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &1241850196
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5311,11 +5312,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   floorPanels: []
-  fallPanelInterval: 0.05
-  initialInterval: 2
+  fallPanelInterval: 0.8
   timer: 0
-  state: 0
-  fallingCount: 0
 --- !u!1 &1259082049
 GameObject:
   m_ObjectHideFlags: 0
@@ -5361,7 +5359,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &1259082052
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5460,7 +5458,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &1264411272
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5559,7 +5557,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &1280785167
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5658,7 +5656,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &1281267741
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5757,7 +5755,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &1303682269
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5856,7 +5854,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &1304249207
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5955,7 +5953,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &1333119867
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6054,7 +6052,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &1371525123
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6153,7 +6151,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &1383420580
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6252,7 +6250,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &1422638025
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6351,7 +6349,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &1427653748
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6450,7 +6448,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &1436971806
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6549,7 +6547,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &1445754648
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6648,7 +6646,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &1473180748
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6747,7 +6745,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &1482069235
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6846,7 +6844,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &1485060274
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6945,7 +6943,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &1531023746
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7044,7 +7042,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &1538449479
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7143,7 +7141,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &1579899636
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7242,7 +7240,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &1586982562
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7341,7 +7339,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &1588447722
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7440,7 +7438,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &1589566804
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7539,7 +7537,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &1604542752
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7638,7 +7636,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &1656916412
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7737,7 +7735,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &1662372236
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7836,7 +7834,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &1667869398
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7935,7 +7933,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &1672411286
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8034,7 +8032,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &1680316325
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8133,7 +8131,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &1700509008
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8232,7 +8230,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &1704244608
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8331,7 +8329,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &1728424982
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8430,7 +8428,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &1737391447
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8529,7 +8527,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &1776083330
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8628,7 +8626,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &1779726717
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8727,7 +8725,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &1798643695
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8826,7 +8824,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &1826368140
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8925,7 +8923,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &1828285251
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9024,7 +9022,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &1844357697
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9220,7 +9218,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &1855009390
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9319,7 +9317,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &1860983326
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9418,7 +9416,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &1908918451
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9517,7 +9515,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &1917584516
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9616,7 +9614,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &1938203689
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9715,7 +9713,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &2003166182
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9814,7 +9812,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &2038422786
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9913,7 +9911,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &2087877251
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -10012,7 +10010,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &2108134495
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -10111,7 +10109,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &2109126003
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -10210,7 +10208,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &2114130517
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -10309,7 +10307,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &2117469498
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -10408,7 +10406,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &2132258099
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -10507,7 +10505,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &2132952474
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -10606,7 +10604,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFalling: 0
   velocity: 0
-  fallSpeedRate: 0.01
+  fallSpeedRate: 0.001
 --- !u!23 &2133772249
 MeshRenderer:
   m_ObjectHideFlags: 0

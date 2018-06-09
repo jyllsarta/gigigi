@@ -27,6 +27,7 @@ public class Player : MonoBehaviour {
         Debug.Log(playerFoot.isGrounded);
         if (playerFoot.isGrounded)
         {
+            transform.position = new Vector3(transform.position.x, 0.65f, transform.position.z);
             return;
         }
         transform.Translate(0, -0.1f, 0);

@@ -11,22 +11,7 @@ public class FloorController : MonoBehaviour {
     private float fallPanelInterval;
 
     [SerializeField]
-    private float initialInterval;
-
-    [SerializeField]
     private float timer;
-
-    [SerializeField]
-    private State state;
-
-    [SerializeField]
-    private int fallingCount;
-
-    public enum State
-    {
-        InitialWaiting,
-        Falling,
-    }
 
 
 	// Use this for initialization
@@ -35,34 +20,12 @@ public class FloorController : MonoBehaviour {
         timer = 0f;
 	}
 	
-	void FixedUpdate () {
+    void FixedUpdate () {
         timer += Time.deltaTime;
-        switch (state)
+        if (timer >= fallPanelInterval)
         {
-            case State.InitialWaiting:
-                if (timer > initialInterval)
-                {
-                    timer = 0f;
-                    state = State.Falling;
-                }
-                break;
-            case State.Falling:
-                if (timer < fallPanelInterval)
-                {
-                    return;
-                }
-
-                timer = 0f;
-
-                if (fallingCount >= floorPanels.Count)
-                {
-                    return;
-                }
-                floorPanels[fallingCount].StartFall();
-                fallingCount++;
-                break;
-
+            timer = 0f;
+            floorPanels[Random.Range(0, floorPanels.Count)].StartFall();
         }
-
-	}
+    }
 }

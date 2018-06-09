@@ -6,7 +6,18 @@ using UnityEngine;
 public class PlayerFoot : MonoBehaviour {
 
     [SerializeField]
-    public bool isGrounded { get; private set; }
+    private FloorPanel currentGround;
+
+    [SerializeField]
+    public bool isGrounded {
+        get {
+            if (!currentGround)
+            {
+                return false;
+            }
+            return currentGround.transform.position.y > -0.5f;
+        }
+    }
 
     void OnTriggerEnter(Collider other)
     {
@@ -14,8 +25,7 @@ public class PlayerFoot : MonoBehaviour {
         {
             return;
         }
-        Debug.Log("T");
-        isGrounded = true;
+        currentGround = other.gameObject.GetComponent<FloorPanel>();
     }
     void OnTriggerStay(Collider other)
     {
@@ -23,8 +33,7 @@ public class PlayerFoot : MonoBehaviour {
         {
             return;
         }
-        Debug.Log("T");
-        isGrounded = true;
+        currentGround = other.gameObject.GetComponent<FloorPanel>();
     }
     void OnTriggerExit(Collider other)
     {
@@ -32,13 +41,7 @@ public class PlayerFoot : MonoBehaviour {
         {
             return;
         }
-        Debug.Log("F");
-        isGrounded = false;
-    }
-
-    void Start()
-    {
-        isGrounded = true;
+        currentGround = null;
     }
 
 }
